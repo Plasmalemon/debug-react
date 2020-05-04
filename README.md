@@ -1,6 +1,8 @@
 安装： npm install
 启动： npm start
 
+此源码调试基于React V16.13.1
+
 如果重新 clone react，有以下三个文件需要更改：
 
 1. /src/react/packages/react-reconciler/src/ReactFiberHostConfig.js
@@ -83,4 +85,4 @@ export {
 
 参考：
 https://github.com/nannongrousong/blog/issues/1
-https://github.com/bubucuo/react-sourcecode-debug-env
+https://github.com/bubucuo/DebugReact
